@@ -1,26 +1,26 @@
-<html>
-<head>
-    <title>Заказ тура</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
-    <meta charset="utf-8">
-</head>
-<body>
-<div id="panel"></div>
-<div id="wrap">
-    <div id="header">
-        <?php include ('header.php');?>
-    </div>
-    <div id="block-menu">
-        <?php include ('top-menu.php');?>
-    </div>
-    <div id="content">
-        <?php //include ('order_tour/form.php');?>
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Заказ тура</title>-->
+<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--    <meta charset="utf-8">-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="panel"></div>-->
+<!--<div id="wrap">-->
+<!--    <div id="header">-->
+<!--        --><?php //include ('header.php');?>
+<!--    </div>-->
+<!--    <div id="block-menu">-->
+<!--        --><?php //include ('top-menu.php');?>
+<!--    </div>-->
+<!--    <div id="content">-->
+<!--        --><?php //include ('order_tour/form.php');?>
 
         <img id="top" src="images/top.png" alt="">
         <div id="form_container">
 
             <h1><a>Заказ тура</a></h1>
-            <form id="form_33804" class="appnitro"  method="post" action="order_processing.php">
+            <form id="form_33804" class="appnitro"  method="post" action="?type=8">
                 <div class="form_description">
                     <p>Введите свои данные</p>
                 </div>
@@ -149,10 +149,10 @@
         </div>
         <img id="bottom" src="images/bottom.png" alt="">
 
-    </div>
-    <div id="footer">
-        <?php include ('footer.php');?>
-    </div>
-</div>
-</body>
-</html>
+<!--    </div>-->
+<!--    <div id="footer">-->
+<!--        --><?php //include ('footer.php');?>
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->

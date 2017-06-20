@@ -1,18 +1,18 @@
-<html>
-<head>
-    <title>Описание туров</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body>
-    <div id="panel"></div>
-    <div id="wrap">
-        <div id="header">
-            <?php include ('header.php');?>
-        </div>
-        <div id="block-menu">
-            <?php include ('top-menu.php');?>
-        </div>
-        <div id="content">
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Описание туров</title>-->
+<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div id="panel"></div>-->
+<!--    <div id="wrap">-->
+<!--        <div id="header">-->
+<!--            --><?php //include ('header.php');?>
+<!--        </div>-->
+<!--        <div id="block-menu">-->
+<!--            --><?php //include ('top-menu.php');?>
+<!--        </div>-->
+<!--        <div id="content">-->
             <div id="text_block">
                 <p>
                     Pellentesque mattis dictum nulla, at ultricies nulla gravida at. Donec nec lectus consectetur, luctus elit at, lacinia ipsum. Vivamus placerat, ipsum placerat hendrerit ultricies, est ex ornare libero, eget rhoncus mi velit in neque. Suspendisse arcu lectus, venenatis volutpat feugiat sed, tristique ac nunc. Donec rhoncus turpis diam, id rhoncus enim efficitur suscipit.
@@ -27,10 +27,10 @@
                     </ul>
                 </p>
             </div>
-        </div>
-        <div id="footer">
-            <?php include ('footer.php');?>
-        </div>
-    </div>
-</body>
-</html>
+<!--        </div>-->
+<!--        <div id="footer">-->
+<!--            --><?php //include ('footer.php');?>
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->

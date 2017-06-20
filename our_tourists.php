@@ -1,18 +1,18 @@
-<html>
-<head>
-    <title>Наши туристы</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body>
-<div id="panel"></div>
-<div id="wrap">
-    <div id="header">
-        <?php include ('header.php');?>
-    </div>
-    <div id="block-menu">
-        <?php include ('top-menu.php');?>
-    </div>
-    <div id="content">
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Наши туристы</title>-->
+<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="panel"></div>-->
+<!--<div id="wrap">-->
+<!--    <div id="header">-->
+<!--        --><?php //include ('header.php');?>
+<!--    </div>-->
+<!--    <div id="block-menu">-->
+<!--        --><?php //include ('top-menu.php');?>
+<!--    </div>-->
+<!--    <div id="content">-->
         <div id="text_block">
             <p>
 			<p><b>
@@ -37,10 +37,10 @@
             <p align="left">
             </p>
         </div>
-    </div>
-    <div id="footer">
-        <?php include ('footer.php');?>
-    </div>
-</div>
-</body>
-</html>
+<!--    </div>-->
+<!--    <div id="footer">-->
+<!--        --><?php //include ('footer.php');?>
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->

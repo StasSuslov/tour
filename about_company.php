@@ -1,18 +1,18 @@
-<html>
-<head>
-    <title>О компании</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body>
-    <div id="panel"></div>
-    <div id="wrap">
-        <div id="header">
-            <?php include ('header.php');?>
-        </div>
-        <div id="block-menu">
-            <?php include ('top-menu.php');?>
-        </div>
-        <div id="content">
+<!--<html>-->
+<!--<head>-->
+<!--    <title>О компании</title>-->
+<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div id="panel"></div>-->
+<!--    <div id="wrap">-->
+<!--        <div id="header">-->
+<!--            --><?php //include ('header.php');?>
+<!--        </div>-->
+<!--        <div id="block-menu">-->
+<!--            --><?php //include ('top-menu.php');?>
+<!--        </div>-->
+<!--        <div id="content">-->
             <div id="text_block">
              <p align="left">
 				Туроператор от Бога - это корпоративные и личные туры, идеально подходящие даже самым взыскательным путешественникам. 
@@ -33,10 +33,10 @@
 			<p align="left">ул. Харченко, 16, тел. 89219876543 </p>
 			</p>
             </div>
-        </div>
-        <div id="footer">
-            <?php include ('footer.php');?>
-        </div>
-    </div>
-    </body>
-</html>
+<!--        </div>-->
+<!--        <div id="footer">-->
+<!--            --><?php //include ('footer.php');?>
+<!--        </div>-->
+<!--    </div>-->
+<!--    </body>-->
+<!--</html>-->

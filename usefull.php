@@ -1,18 +1,18 @@
-<html>
-<head>
-    <title>Полезное</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body>
-<div id="panel"></div>
-<div id="wrap">
-    <div id="header">
-        <?php include ('header.php');?>
-    </div>
-    <div id="block-menu">
-        <?php include ('top-menu.php');?>
-    </div>
-    <div id="content">
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Полезное</title>-->
+<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="panel"></div>-->
+<!--<div id="wrap">-->
+<!--    <div id="header">-->
+<!--        --><?php //include ('header.php');?>
+<!--    </div>-->
+<!--    <div id="block-menu">-->
+<!--        --><?php //include ('top-menu.php');?>
+<!--    </div>-->
+<!--    <div id="content">-->
         <div id="text_block">
 		
 			<p><b>
@@ -43,10 +43,10 @@
 			<br>	8. В конечном итоге, чтобы компактно упаковать багаж, достаточно вспомнить свой предыдущий опыт. Так можно понять, что действительно пригодилось в поездке, а чем можно пожертвовать в пользу снижения веса чемодана.
             </p>
         </div>
-    </div>
-    <div id="footer">
-        <?php include ('footer.php');?>
-    </div>
-</div>
-</body>
-</html>
+<!--    </div>-->
+<!--    <div id="footer">-->
+<!--        --><?php //include ('footer.php');?>
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->

@@ -43,20 +43,20 @@ mysqli_query($link, $insert_sql);
 mysqli_close($link);
 ?>
 
-<html>
-<head>
-    <title>Оформление заявки</title>
-    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<div id="panel"></div>
-<div id="wrap">
-    <div id="header">
-        <?php include('header.php');?>
-    </div>
-    <div id="block-menu">
-        <?php include('top-menu.php');?>
-    </div>
-    <div id="content">
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Оформление заявки</title>-->
+<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--</head>-->
+<!--<div id="panel"></div>-->
+<!--<div id="wrap">-->
+<!--    <div id="header">-->
+<!--        --><?php //include('header.php');?>
+<!--    </div>-->
+<!--    <div id="block-menu">-->
+<!--        --><?php //include('top-menu.php');?>
+<!--    </div>-->
+<!--    <div id="content">-->
         <div id="text_block">
             <p>
                 <b>Ваша заявка на тур успешно отправлена! Спасибо!</b><br>
@@ -65,9 +65,9 @@ mysqli_close($link);
                 <b>Мы свяжемся с Вами по указанным координатам.</b><br>
             </p>
         </div>
-    </div>
-    <div id="footer">
-        <?php include('footer.php');?>
-    </div>
-</div>
-</html>
+<!--    </div>-->
+<!--    <div id="footer">-->
+<!--        --><?php //include('footer.php');?>
+<!--    </div>-->
+<!--</div>-->
+<!--</html>-->
