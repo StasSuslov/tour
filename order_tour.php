@@ -78,20 +78,20 @@
                     <li id="li_6" >
                         <label class="description" for="element_6">Дата приезда </label>
                         <span>
-                        <input id="month_in" name="month_in" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
-                        <label for="month_in">MM</label>
-                    </span>
+                            <input id="day_in" name="day_in" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
+                            <label for="day_in">DD</label>
+                        </span>
                         <span>
-                        <input id="day_in" name="day_in" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
-                        <label for="day_in">DD</label>
-                    </span>
+                            <input id="month_in" name="month_in" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
+                            <label for="month_in">MM</label>
+                        </span>
                         <span>
-                        <input id="year_in" name="year_in" class="element text" size="4" maxlength="4" value="" type="text" autofocus required>
-                        <label for="year_in">YYYY</label>
-                    </span>
-                        <span id="calendar_6">
-                        <img id="cal_img_6" class="datepicker" src="images/calendar.gif" alt="Pick a date.">
-                    </span>
+                            <input id="year_in" name="year_in" class="element text" size="4" maxlength="4" value="" type="text" autofocus required>
+                            <label for="year_in">YYYY</label>
+                        </span>
+<!--                        <span id="calendar_6">-->
+<!--                            <img id="cal_img_6" class="datepicker" src="images/calendar.gif" alt="Pick a date.">-->
+<!--                        </span>-->
 <!--                        <script type="text/javascript">-->
 <!--                            Calendar.setup({-->
 <!--                                inputField	 : "year_in",-->
@@ -107,20 +107,20 @@
                     <li id="li_7" >
                         <label class="description" for="element_7">Дата отъезда </label>
                         <span>
-                            <input id="month_out" name="month_out" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
-                            <label for="month_out">MM</label>
-                        </span>
-                        <span>
                             <input id="day_out" name="day_out" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
                             <label for="day_out">DD</label>
+                        </span>
+                        <span>
+                            <input id="month_out" name="month_out" class="element text" size="2" maxlength="2" value="" type="text" autofocus required> /
+                            <label for="month_out">MM</label>
                         </span>
                         <span>
                             <input id="year_out" name="year_out" class="element text" size="4" maxlength="4" value="" type="text" autofocus required>
                             <label for="year_out">YYYY</label>
                         </span>
-                        <span id="calendar_7">
-                            <img id="cal_img_7" class="datepicker" src="images/calendar.gif" alt="Pick a date.">
-                        </span>
+<!--                        <span id="calendar_7">-->
+<!--                            <img id="cal_img_7" class="datepicker" src="images/calendar.gif" alt="Pick a date.">-->
+<!--                        </span>-->
 <!--                        <script type="text/javascript">-->
 <!--                            Calendar.setup({-->
 <!--                                inputField	 : "year_out",-->

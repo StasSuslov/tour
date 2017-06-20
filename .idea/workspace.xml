@@ -2,268 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb24640-ab9f-4706-bdee-6d61db466a66" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about_company/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about_company/Magazine201608.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about_company/about_company.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about_company/partners.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about_company/svid_rosturizm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about_company/svid_rosturizm_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/.access.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_drev_trad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_drevnie_tradicions_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_monument_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_russa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_russa_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_srednevekovie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_valday.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/novgorod_valday_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho1_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho1_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho2_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho_alyaska1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho_alyaska1_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho_alyaska2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/rancho_alyaska2_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas1_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas2_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas3_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/svargas_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon1_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon2_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/images/ukon3_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/novgorod_srednevekovie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/novgorod_traditions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/rus_alyaska.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/staraya_russa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/svargas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/ukon.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/corporate_events/valday_novgorod.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/easter/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/easter/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/Pushkin_palace_b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/Pushkin_palace_f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/Pushkin_park_f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/Pushkin_park_f1_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/Pushkin_park_f2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/Pushkin_park_f2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/corporativ/novgorod_drevnie_tradicions.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/corporativ/novgorod_drevnie_tradicions_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/corporativ/rancho2_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/corporativ/rancho2_sm2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/corporativ/svargas_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/corporativ/svargas_sm2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/hotel_double.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/hotel_nomer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/hotel_nomer2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/hotel_shower-room.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/hotel_twin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/sobor1_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/sobor1_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/sobor2_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/sobor2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/soborbig_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/soborbig_med.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/easter/soborbig_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/geolog_institute_f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/geolog_institute_f1_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/geolog_institute_f2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/geolog_institute_f2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/geolog_institute_f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/geolog_institute_f3_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gi_f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gorn_institute_b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gorn_institute_f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gorn_institute_f2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gorn_institute_f2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gorn_institute_f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/gorn_institute_f3_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/Baykal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/aleksandr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/baykal_doroga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/baykal_doroga_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/dramteatr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/dramteatr_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/ledokol_angara.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/nizhnyaya_naberezhnaya.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/ozero_Baykal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/ozero_Baykal_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/staryy_angarskiy_most.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/irkutsk/village.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_kafedralnyi-sobor_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_kafedralnyi-sobor_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_muzei_yantar2_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_muzei_yantar2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_muzei_yantar_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_muzei_yantar_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_pos_yantarni2_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_pos_yantarni2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_pos_yantarni_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_pos_yantarni_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_zamok_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/kal_zamok_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/knz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/dva-brata_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/dva-brata_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_Khibiny-Mountains_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_Khibiny-Mountains_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_botsad2_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_botsad2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_botsad_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_botsad_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_kirk_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_kirk_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_muzei_kamnya_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_muzei_kamnya_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_vudiyar_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/kirovsk_vudiyar_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk-siyanie_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk-siyanie_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk1_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk1_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk2_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_blob_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_blob_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_dolina_slavi_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_dolina_slavi_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_oceanarium_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_oceanarium_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_port.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_port_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_port_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_seafishing_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/murmansk_seafishing_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/mustaturi_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/mustaturi_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/ribachi_dva_brata_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/ribachi_dva_brata_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saam_oleni2_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saam_oleni2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village1_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village1_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village2_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village2_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village3_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village3_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village4_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village4_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village5_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/saamskaya_village5_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_drakon_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_drakon_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_korabli_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_korabli_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_kosa_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_kosa_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_leviafan_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_leviafan_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_orudie_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_orudie_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_vodopad_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/teriberka_vodopad_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/vodopad_titovka_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/murmansk/vodopad_titovka_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Faceted_Chamber_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Faceted_Chamber_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Magdeburg_gates_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Magdeburg_gates_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Monument-Millennium-of-Russia_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Monument-Millennium-of-Russia_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Nereditsa_Church_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Nereditsa_Church_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Novgorod_Kremlin_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Novgorod_Kremlin_i.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Novgorod_Kremlin_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Rurik-fort_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Rurik-fort_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Sophia_Cathedral_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Sophia_Cathedral_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Vitoslavlitsy_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Vitoslavlitsy_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Volkhov_river_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Volkhov_river_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Yaroslavs_Court_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/Yaroslavs_Court_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/ilmen_lake_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/ilmen_lake_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/skit-Perynsky_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/novgorod/skit_Perynsky_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/pp_f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_canals_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_canals_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_dvmost_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_dvmost_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_dvmost_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_isobor_287x216.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_isobor_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_isobor_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_isobor_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_kanal_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_kanal_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_petr_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_petr_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_petr_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_petrkrepost_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_petrkrepost_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/spb_petrkrepost_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yantar_masterskaya_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yantar_masterskaya_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yantar_room_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yantar_room_fragment.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yantar_room_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yantarnaya_komnata_b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yk-f2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/images/yk-f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/irkutsk/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/irkutsk/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/krim/images/Krim_Morskoe1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/krim/images/Krim_Morskoe2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/krim/images/Krim_Morskoe3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/krim/images/Krim_Morskoe4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/krim/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/murmansk/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/murmansk/about_dolina_slavi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/murmansk/about_murmansk.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/murmansk/about_saam.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/murmansk/about_teriberka.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/murmansk/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/novgorod/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/novgorod/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/yantar/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/yantar/Svetlogorsk.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/yantar/amber_museum.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/yantar/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/yantar/mining_museum_ru.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list_tours/yantar/obzor_excursion_Kaliningrad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/f_answer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/iepngfix.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/view.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order_tour/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/our_tourists/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/our_tourists/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/usefull/.section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/usefull/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/usefull/kalinigrad.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/connect.php" afterPath="$PROJECT_DIR$/scripts/connect.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/our_tourists/images/2015-05-09 12-40-12.JPG" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_tour.php" afterPath="$PROJECT_DIR$/order_tour.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/our_tourists.php" afterPath="$PROJECT_DIR$/our_tourists.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -281,8 +22,8 @@
       <file leaf-file-name="order_tour.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order_tour.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1151">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="362">
+              <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -298,10 +39,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="order_processing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_processing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+              <folding>
+                <marker date="1497953965360" expanded="true" signature="1355:1447" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1462" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1471" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1483" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1496" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1511" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1523" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1525" ph="INSERT INTO tour_orders... " />
+                <marker date="1497953965360" expanded="true" signature="1355:1583" ph="INSERT INTO tour_orders... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="391">
               <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
               <folding />
             </state>
@@ -311,8 +72,8 @@
       <file leaf-file-name="our_tourists.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/our_tourists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -361,7 +122,6 @@
         <option value="$PROJECT_DIR$/order_tour/index.php" />
         <option value="$PROJECT_DIR$/about_company.php" />
         <option value="$PROJECT_DIR$/usefull.php" />
-        <option value="$PROJECT_DIR$/our_tourists.php" />
         <option value="$PROJECT_DIR$/order_tour/order_processing.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/order_tour/form.php" />
@@ -369,8 +129,9 @@
         <option value="$PROJECT_DIR$/order_processing.php" />
         <option value="$PROJECT_DIR$/auth.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/order_tour.php" />
         <option value="$PROJECT_DIR$/scripts/connect.php" />
+        <option value="$PROJECT_DIR$/order_tour.php" />
+        <option value="$PROJECT_DIR$/our_tourists.php" />
       </list>
     </option>
   </component>
@@ -542,15 +303,15 @@
       <workItem from="1497604521349" duration="3882000" />
       <workItem from="1497796960595" duration="1588000" />
       <workItem from="1497806609322" duration="2534000" />
-      <workItem from="1497951518416" duration="3943000" />
+      <workItem from="1497951518416" duration="4330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54166000" />
+    <option name="totallyTimeSpent" value="54553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15959005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -835,37 +596,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_company/about_company.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_processing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-          <folding>
-            <marker date="1497953965360" expanded="true" signature="1355:1447" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1462" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1471" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1483" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1496" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1511" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1523" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1525" ph="INSERT INTO tour_orders... " />
-            <marker date="1497953965360" expanded="true" signature="1355:1583" ph="INSERT INTO tour_orders... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,23 +612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth_proc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -909,14 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_tour.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1151">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usefull.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
@@ -925,10 +636,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_processing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <marker date="1497953965360" expanded="true" signature="1355:1447" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1462" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1471" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1483" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1496" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1511" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1523" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1525" ph="INSERT INTO tour_orders... " />
+            <marker date="1497953965360" expanded="true" signature="1355:1583" ph="INSERT INTO tour_orders... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_tour.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/our_tourists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding />
         </state>
       </provider>
