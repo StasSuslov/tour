@@ -58,7 +58,12 @@ mysqli_close($link);
     </div>
     <div id="content">
         <div id="text_block">
-            <h1> Заявка оформлена! </h1>
+            <p>
+                <b>Ваша заявка на тур успешно отправлена! Спасибо!</b><br>
+                <br>
+                <br>
+                <b>Мы свяжемся с Вами по указанным координатам.</b><br>
+            </p>
         </div>
     </div>
     <div id="footer">

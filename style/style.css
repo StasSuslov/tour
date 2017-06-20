@@ -191,3 +191,7 @@ table.main th {
     color: #055883;
     text-align: left;
 }
+
+/*input:required:invalid {*/
+    /*border:1px solid red;*/
+/*}*/
