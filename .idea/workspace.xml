@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb24640-ab9f-4706-bdee-6d61db466a66" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/our_tourists/images/2015-05-09 12-40-12.JPG" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_tour.php" afterPath="$PROJECT_DIR$/order_tour.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/our_tourists.php" afterPath="$PROJECT_DIR$/our_tourists.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/connect.php" afterPath="$PROJECT_DIR$/scripts/connect.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +22,14 @@
       <file leaf-file-name="order_tour.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order_tour.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+            <state relative-caret-position="-216">
+              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="our_tourists.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="our_tourists.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/our_tourists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+            <state relative-caret-position="272">
+              <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -129,9 +129,9 @@
         <option value="$PROJECT_DIR$/order_processing.php" />
         <option value="$PROJECT_DIR$/auth.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/scripts/connect.php" />
-        <option value="$PROJECT_DIR$/order_tour.php" />
         <option value="$PROJECT_DIR$/our_tourists.php" />
+        <option value="$PROJECT_DIR$/order_tour.php" />
+        <option value="$PROJECT_DIR$/scripts/connect.php" />
       </list>
     </option>
   </component>
@@ -303,12 +303,12 @@
       <workItem from="1497604521349" duration="3882000" />
       <workItem from="1497796960595" duration="1588000" />
       <workItem from="1497806609322" duration="2534000" />
-      <workItem from="1497951518416" duration="4330000" />
+      <workItem from="1497951518416" duration="5224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54553000" />
+    <option name="totallyTimeSpent" value="55447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -652,10 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/connect.php">
+    <entry file="file://$PROJECT_DIR$/our_tourists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        <state relative-caret-position="272">
+          <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -680,16 +680,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order_tour.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+        <state relative-caret-position="-216">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our_tourists.php">
+    <entry file="file://$PROJECT_DIR$/scripts/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        <state relative-caret-position="102">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
           <folding />
         </state>
       </provider>

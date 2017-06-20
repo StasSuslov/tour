@@ -20,7 +20,7 @@
         <div id="form_container">
 
             <h1><a>Заказ тура</a></h1>
-            <form id="form_33804" class="appnitro"  method="post" action="/order_processing.php">
+            <form id="form_33804" class="appnitro"  method="post" action="order_processing.php">
                 <div class="form_description">
                     <p>Введите свои данные</p>
                 </div>
