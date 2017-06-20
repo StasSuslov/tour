@@ -14,14 +14,10 @@
                 <?php include ('top-menu.php');?>
             </div>
             <div id="content">
-<!--                --><?php //include ('main_content.php');?>
                 <?php
                 $type = isset($_GET['type']) ? $_GET['type'] : null;
                 switch ($type)
                 {
-//                    case 0:
-//                        include ("main_content.php");
-//                        break;
                     case 1:
                         include ("list_tours.php");
                         break;

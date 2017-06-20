@@ -29,9 +29,6 @@ if(isset($_POST["year_out"]))
 if(isset($_POST["comment"]))
     $comment = htmlspecialchars($_POST["comment"]);
 
-//echo "$FIO <br> $city <br> $e_mail <br> $phone <br> $tour <br> $num_persons <br>";
-//echo "$day_in-$month_in-$year_in <br> $day_out-$month_out-$year_out <br> $comment";
-
 $date_in = $day_in . $month_in . $year_in;
 $date_out = $day_out . $month_out . $year_out;
 
@@ -43,31 +40,11 @@ mysqli_query($link, $insert_sql);
 mysqli_close($link);
 ?>
 
-<!--<html>-->
-<!--<head>-->
-<!--    <title>Оформление заявки</title>-->
-<!--    <link href="style/style.css" rel="stylesheet" type="text/css" media="all">-->
-<!--</head>-->
-<!--<div id="panel"></div>-->
-<!--<div id="wrap">-->
-<!--    <div id="header">-->
-<!--        --><?php //include('header.php');?>
-<!--    </div>-->
-<!--    <div id="block-menu">-->
-<!--        --><?php //include('top-menu.php');?>
-<!--    </div>-->
-<!--    <div id="content">-->
-        <div id="text_block">
-            <p>
-                <b>Ваша заявка на тур успешно отправлена! Спасибо!</b><br>
-                <br>
-                <br>
-                <b>Мы свяжемся с Вами по указанным координатам.</b><br>
-            </p>
-        </div>
-<!--    </div>-->
-<!--    <div id="footer">-->
-<!--        --><?php //include('footer.php');?>
-<!--    </div>-->
-<!--</div>-->
-<!--</html>-->
+<div id="text_block">
+    <p>
+        <b>Ваша заявка на тур успешно отправлена! Спасибо!</b><br>
+        <br>
+        <br>
+        <b>Мы свяжемся с Вами по указанным координатам.</b><br>
+    </p>
+</div>
