@@ -236,6 +236,26 @@ table.main th {
     text-align: left;
 }
 
+.zakaz {
+    width: 12.3125em;
+    heigt: 4em;
+    background: #055883;
+    margin: 0;
+    padding: 0.625em 0.7em;
+    -webkit-bordur-bottom-right-radius: 20px;
+    -webkit-bordur-bottom-left-radius: 20px;
+    -moz-bordur-radius-bottomright: 20px;
+    -moz-bordur-radius-bottomleft: 20px;
+    -webkit-bordur-top-right-radius: 20px;
+    -webkit-bordur-top-left-radius: 20px;
+    -moz-bordur-radius-topright: 20px;
+    -moz-bordur-radius-topleft: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 /*input:required:invalid {*/
     /*border:1px solid red;*/
 /*}*/
