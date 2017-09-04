@@ -42,29 +42,8 @@
                     case 8:
                         include ("order_processing.php");
                         break;
-					
-					case 9:
-                        include ("baical.php");
-                        break;
-                    case 10:
-                        include ("petergof.php");
-                        break;
-                    case 11:
-                        include ("yantar.php");
-                        break;
-                    case 12:
-                        include ("murmansk.php");
-                        break;
-					case 13:
-                        include ("Novgorod.php");
-                        break;
-                    case 14:
-                        include ("corporativ.php");	
-					
-						
                     default:
-                        #include ("list_tours\corporate_events\main_content.php");
-						include ("main_content.php");
+                        include ("main_content.php");
                         break;
                 }
                 ?>
