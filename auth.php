@@ -7,6 +7,7 @@
     <div>
         <input type="text" name="password" maxlength="255" value="" placeholder="Пароль" autofocus required>
     </div>
+    <br>
     <div>
         <input type="submit" name="send" value="Вход">
     </div>
