@@ -1,30 +1,33 @@
+<div id="text_block">
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+require 'scripts/connect.php';
 
-$data=$_POST;
+if(isset($_POST["name"]))
+    $name = htmlspecialchars($_POST["name"]);
+if(isset($_POST["surname"]))
+    $surname = htmlspecialchars($_POST["surname"]);
+if(isset($_POST["mail"]))
+    $mail = htmlspecialchars($_POST["mail"]);
+if(isset($_POST["phone"]))
+    $phone = htmlspecialchars($_POST["phone"]);
+if(isset($_POST["login"]))
+    $login = htmlspecialchars($_POST["login"]);
+if(isset($_POST["password"]))
+    $password = htmlspecialchars($_POST["password"]);
+if(isset($_POST["rep_password"]))
+    $rep_password = htmlspecialchars($_POST["rep_password"]);
 
-if($_SERVER['REQUEST_METHOD'] == 'POST')
+if($password == $rep_password)
 {
-    $errors=array();
-
-    if($data["password"] != $data["rep_password"])
-    {
-        $errors[]="Пароли не совпадают";
-    }
-}
-if(empty($errors))
-{
-    $flag = False;
-    $mysqli = new mysqli("localhost", "root", "", "sitedb");
-    if (mysqli_connect_errno())
-    {
-        printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-        exit();
-    }
-    $mysqli->query("SET NAMES 'utf8'");
+    $insert_sql = "INSERT INTO  users (id, username, password, First_name, Second_Name, mail, phonenumber)" .
+        "VALUES (NULL, '{$login}','{$password}','{$name}','{$surname}','{$mail}','{$phone}');";
+    mysqli_query($link, $insert_sql);
+    mysqli_close($link);
+    echo "Вы успешно зарегистрированы на сайте!";
 }
 else
 {
-    echo '<div id="error">'.array_shift($errors).'</div>';
+  echo "Пароли не совпадают!";
 }
+?>
+</div>

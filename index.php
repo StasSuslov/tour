@@ -64,6 +64,9 @@
                     case 15:
                         include ("auth_proc.php");
 						break;
+                    case 16:
+                        include ("reg_proc.php");
+                        break;
                     default:
                         #include ("list_tours\corporate_events\main_content.php");
 						include ("main_content.php");

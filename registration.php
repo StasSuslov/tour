@@ -1,4 +1,4 @@
-<form action="reg_proc.php" method="post" name="auth">
+<form action="?type=16" method="post" name="auth">
     <p>Введите логин</p>
     <div>
         <input type="text" name="login" maxlength="255" value="" placeholder="Логин" autofocus required>
