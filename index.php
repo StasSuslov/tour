@@ -59,9 +59,11 @@
                         include ("Novgorod.php");
                         break;
                     case 14:
-                        include ("corporativ.php");	
-					
-						
+                        include ("corporativ.php");
+                        break;
+                    case 15:
+                        include ("auth_proc.php");
+						break;
                     default:
                         #include ("list_tours\corporate_events\main_content.php");
 						include ("main_content.php");
