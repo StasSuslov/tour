@@ -42,7 +42,6 @@
                     case 8:
                         include ("order_processing.php");
                         break;
-					
 					case 9:
                         include ("baical.php");
                         break;
@@ -62,10 +61,7 @@
                         include ("corporativ.php");
                         break;
                     case 15:
-                        include ("auth_proc.php");
-						break;
-                    case 16:
-                        include ("reg_proc.php");
+                        include ("check.php");
                         break;
                     default:
                         #include ("list_tours\corporate_events\main_content.php");

@@ -42,10 +42,11 @@
                 <div>
                     <select class="element select medium" id="tour" name="tour">
                         <!--<option value="" selected="selected"></option>-->
-                        <option value="1" >First option</option>
-                        <option value="2" >Second option</option>
-                        <option value="3" >Third option</option>
-
+                        <option value="1" >Путешествие на Байкал</option>
+                        <option value="2" >Русская Пасха в Петергофе</option>
+                        <option value="3" >Дорога к солнечному камню</option>
+                        <option value="4">Мурманск</option>
+                        <option value="5">Великий Новгород</option>
                     </select>
                 </div>
             </li>

@@ -1,11 +1,11 @@
 <?php
-if(isset($_COOKIE['login']))
+if(isset($_COOKIE['id']) and isset($_COOKIE['hash']))
 {
-    setcookie('login', NULL);
-    setcookie('password', NULL);
+    setcookie('id', NULL);
+    setcookie('hash', NULL);
     header("Location: index.php");
 }
 else
 {
-    echo "Logut error!";
+    echo "Logout error!";
 }

@@ -5,16 +5,20 @@
             <td>Поиск по сайту</td>
             <td>
                 <?php
-                if(isset($_COOKIE['login']))
+                require 'scripts/connect.php';
+                if(isset($_COOKIE['id']))
                 {
-                    $log = $_COOKIE['login'];
-                    echo "Вы вошли как $log. ";
+                    $query = mysqli_query($link, "SELECT user_login FROM users WHERE user_id='".mysqli_real_escape_string($link, $_COOKIE['id'])."' LIMIT 1");
+                    $data = mysqli_fetch_assoc($query);
+                    $log = $data['user_login'];
+                    echo "Вы вошли как $log.<br>";
                     echo '<a href="logout.php">Выйти</a>';
                 }
                 else
                 {
                     echo '<a href="?type=6">Авторизация</a>';
                 }
+                mysqli_close($link);
                 ?>
             </td>
         </tr>
