@@ -1,3 +1,20 @@
+<?php
+if(isset($_COOKIE['id']) and isset($_COOKIE['hash']))
+{
+    $flag = TRUE;
+    require 'scripts/connect.php';
+    $query = mysqli_query($link, "SELECT Name, Surname, Mail, Phone FROM users WHERE user_id='".mysqli_real_escape_string($link, $_COOKIE['id'])."' LIMIT 1");
+    $data = mysqli_fetch_assoc($query);
+    $FIO = $data['Name'].' '.$data['Surname'];
+    $mail = $data['Mail'];
+    $phone = $data['Phone'];
+    mysqli_close($link);
+}
+else
+{
+    $flag = FALSE;
+}
+?>
 <img id="top" src="images/top.png" alt="">
 <div id="form_container">
 
@@ -11,7 +28,8 @@
             <li id="li_1" >
                 <label class="description" for="FIO">ФИО </label>
                 <div>
-                    <input id="FIO" name="FIO" class="element text medium" type="text" maxlength="255" value="" autofocus required/>
+                    <input id="FIO" name="FIO" class="element text medium" type="text" maxlength="255"
+                           value="<?php if($flag) echo $FIO?>" autofocus required/>
                 </div>
             </li>
 
@@ -25,7 +43,8 @@
             <li id="li_3" >
                 <label class="description" for="e_mail">Ваш e-mail </label>
                 <div>
-                    <input id="e_mail" name="e_mail" class="element text medium" type="text" maxlength="255" value=""
+                    <input id="e_mail" name="e_mail" class="element text medium" type="text" maxlength="255"
+                           value="<?php if($flag) echo $mail?>"
                            placeholder="qwerty@yuiop.com" autofocus required pattern="\S+@[a-z]+.[a-z]+"/>
                 </div>
             </li>
@@ -33,7 +52,8 @@
             <li id="li_4" >
                 <label class="description" for="phone">Ваш телефон </label>
                 <div>
-                    <input id="phone" name="phone" class="element text medium" type="text" maxlength="255" value="" autofocus required/>
+                    <input id="phone" name="phone" class="element text medium" type="text" maxlength="255"
+                           value="<?php if($flag) echo $phone?>" autofocus required/>
                 </div>
             </li>
 
