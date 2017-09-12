@@ -1,5 +1,5 @@
 <div id="header">
-    <table width="100%" height="10%">
+    <table width="100%">
         <tr>
             <td>
                 <a href="index.php"><img src="images/logo_2013_eng_flag.png" width="160" height="80" alt="Лого" align="left">

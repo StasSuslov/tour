@@ -11,9 +11,14 @@ body {
     background: #e4eef7 url(../images/bg_fon7.jpg) no-repeat top center;
 }
 
+table {
+    width: 100%;
+}
+
 #wrap {
     max-width: 60em;
-    width: 60em;
+    /*width: 60em;*/
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
