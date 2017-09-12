@@ -3,7 +3,7 @@
 require 'scripts/connect.php';
 function search ($query, $link)
 {
-    $query = trim($query);
+    $query = trim((string)$query);
     $query = mysqli_real_escape_string($link, $query);
     $query = htmlspecialchars($query);
 
@@ -26,22 +26,12 @@ function search ($query, $link)
 
                 $text = '<p>По запросу <b>'.$query.'</b> найдено совпадений: '.$num.'</p>';
 
-                /*do {
-                    // Делаем запрос, получающий ссылки на статьи
-                    $q1 = "SELECT `link` FROM `table_name` WHERE `uniq_id` = '$row[page_id]'";
-                    $result1 = mysqli_query($link, $q1);
-
-                    if (mysqli_affected_rows($link) > 0) {
-                        $row1 = mysqli_fetch_assoc($result1);
-                    }
-
-                    $text .= '<p><a> href="'.$row1['link'].'/'.$row['category'].'/'.$row['uniq_id'].'" title="'.$row['title_link'].'">'.$row['title'].'</a></p>
-                    <p>'.$row['desc'].'</p>';
-
-                } while ($row = mysqli_fetch_assoc($result));*/
-                $text .= '<p>Название тура: '.$row['tour_name'].'</p>';
-                $text .= '<p>Краткое описание тура: '.$row['tour_descr'].'</p>';
-                $text .= '<p><a href="'.$row['tour_link'].'">Ссылка на тур</a></p>';
+                do
+                {
+                    $text .= '<p>Название тура: '.$row['tour_name'].'</p>';
+                    $text .= '<p>Краткое описание тура: '.$row['tour_descr'].'</p>';
+                    $text .= '<p><a href="'.$row['tour_link'].'">Ссылка на тур</a></p>';
+                } while ($row = mysqli_fetch_assoc($result));
 
             } else {
                 $text = '<p>По вашему запросу ничего не найдено.</p>';
@@ -55,10 +45,11 @@ function search ($query, $link)
 
     return $text;
 }
-if (isset($_POST['query']))
-{
-    $search_result = search($_POST['query'], $link);
-    echo $search_result;
+if(password_verify($_SESSION['hash'], $_POST['csrf'])) {
+    if (isset($_POST['query'])) {
+        $search_result = search($_POST['query'], $link);
+        echo $search_result;
+    }
 }
 ?>
 </div>

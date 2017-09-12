@@ -3,31 +3,31 @@
 require 'scripts/connect.php';
 
 if(isset($_POST["FIO"]))
-    $FIO = htmlspecialchars($_POST["FIO"]);
+    $FIO = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["FIO"]), ENT_QUOTES));
 if(isset($_POST["City"]))
-    $city = htmlspecialchars($_POST["City"]);
+    $city = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["City"]), ENT_QUOTES));
 if(isset($_POST["e_mail"]))
-    $e_mail = htmlspecialchars($_POST["e_mail"]);
+    $e_mail = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["e_mail"]), ENT_QUOTES));
 if(isset($_POST["phone"]))
-    $phone = htmlspecialchars($_POST["phone"]);
+    $phone = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["phone"]), ENT_QUOTES));
 if(isset($_POST["tour"]))
-    $tour = htmlspecialchars($_POST["tour"]);
+    $tour = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["tour"]), ENT_QUOTES));
 if(isset($_POST["num_persons"]))
-    $num_persons = htmlspecialchars($_POST["num_persons"]);
+    $num_persons = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["num_persons"]), ENT_QUOTES));
 if(isset($_POST["month_in"]))
-    $month_in = htmlspecialchars($_POST["month_in"]);
+    $month_in = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["month_in"]), ENT_QUOTES));
 if(isset($_POST["day_in"]))
-    $day_in = htmlspecialchars($_POST["day_in"]);
+    $day_in = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["day_in"]), ENT_QUOTES));
 if(isset($_POST["year_in"]))
-    $year_in = htmlspecialchars($_POST["year_in"]);
+    $year_in = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["year_in"]), ENT_QUOTES));
 if(isset($_POST["month_out"]))
-    $month_out = htmlspecialchars($_POST["month_out"]);
+    $month_out = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["month_out"]), ENT_QUOTES));
 if(isset($_POST["day_out"]))
-    $day_out = htmlspecialchars($_POST["day_out"]);
+    $day_out = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["day_out"]), ENT_QUOTES));
 if(isset($_POST["year_out"]))
-    $year_out = htmlspecialchars($_POST["year_out"]);
+    $year_out = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["year_out"]), ENT_QUOTES));
 if(isset($_POST["comment"]))
-    $comment = htmlspecialchars($_POST["comment"]);
+    $comment = strip_tags(htmlspecialchars(mysqli_real_escape_string($link, (string)$_POST["comment"]), ENT_QUOTES));
 
 $date_in = $day_in . $month_in . $year_in;
 $date_out = $day_out . $month_out . $year_out;

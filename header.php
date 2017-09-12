@@ -7,6 +7,7 @@
             <td>
                 <form name="search" method="post" action="?type=16">
                     <input type="search" name="query" placeholder="Поиск">
+                    <input type="hidden" name="csrf" value="<?php $token ?>" >
                     <button type="submit">Найти</button>
                 </form>
             </td>

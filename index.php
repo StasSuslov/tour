@@ -1,4 +1,10 @@
 <html>
+<?php
+if(isset($_SESSION['id']))
+{
+    $token = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
+}
+?>
 <head>
     <title>Туроператор от Бога</title>
     <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
@@ -57,9 +63,9 @@
 					case 13:
                         include ("Novgorod.php");
                         break;
-                    case 14:
-                        include ("corporativ.php");
-                        break;
+//                    case 14:
+//                        include ("corporativ.php");
+//                        break;
                     case 15:
                         include ("check.php");
                         break;
