@@ -1,8 +1,15 @@
 <div id="header">
-    <table width="100%">
+    <table width="100%" height="10%">
         <tr>
-            <td><a href="index.php"><img src="images/logo_2013_eng_flag.png" width="160" height="80" alt="Лого" align="left"></a></td>
-            <td>Поиск по сайту</td>
+            <td>
+                <a href="index.php"><img src="images/logo_2013_eng_flag.png" width="160" height="80" alt="Лого" align="left">
+            </td>
+            <td>
+                <form name="search" method="post" action="?type=16">
+                    <input type="search" name="query" placeholder="Поиск">
+                    <button type="submit">Найти</button>
+                </form>
+            </td>
             <td>
                 <?php
                 require 'scripts/connect.php';

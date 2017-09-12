@@ -63,6 +63,9 @@
                     case 15:
                         include ("check.php");
                         break;
+                    case 16:
+                        include ("search.php");
+                        break;
                     default:
                         #include ("list_tours\corporate_events\main_content.php");
 						include ("main_content.php");
