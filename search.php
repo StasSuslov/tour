@@ -1,6 +1,7 @@
 <div id="text_block">
 <?php
 require 'scripts/connect.php';
+//session_start();
 function search ($query, $link)
 {
     $query = trim((string)$query);
@@ -45,11 +46,17 @@ function search ($query, $link)
 
     return $text;
 }
-if(password_verify($_SESSION['hash'], $_POST['csrf'])) {
+//echo $_POST['csrf'];
+//echo $_SESSION['hash'];
+if(password_verify($_SESSION['hash'], (string)$_POST['csrf'])) {
     if (isset($_POST['query'])) {
         $search_result = search($_POST['query'], $link);
         echo $search_result;
     }
+}
+else
+{
+    echo "CSRF";
 }
 ?>
 </div>

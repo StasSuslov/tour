@@ -1,7 +1,7 @@
 <?php
 require 'scripts/connect.php';
-ini_set ("session.use_trans_sid", true);
-session_start();
+//ini_set ("session.use_trans_sid", true);
+//session_start();
 // Страница авторизации
 # Функция для генерации случайной строки
 function generateCode($length=6)
@@ -40,6 +40,7 @@ if(isset($_POST['submit']))
         setcookie("hash", $hash, time()+60*60*24*30);
         $_SESSION['id'] = $data['user_id'];
         $_SESSION['hash'] = $hash;
+//        $_SESSION['token'] = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
         # Переадресовываем браузер на страницу проверки нашего скрипта
 
         header("Location: ?type=15"); exit();

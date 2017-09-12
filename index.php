@@ -1,10 +1,4 @@
 <html>
-<?php
-if(isset($_SESSION['id']))
-{
-    $token = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
-}
-?>
 <head>
     <title>Туроператор от Бога</title>
     <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
@@ -13,6 +7,14 @@ if(isset($_SESSION['id']))
     <body>
         <div id="panel"></div>
         <div id="wrap">
+            <?php
+            ini_set ("session.use_trans_sid", true);
+            session_start();
+            if(isset($_SESSION['id']))
+            {
+                $token = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
+            }
+            ?>
             <div id="header">
                 <?php include ('header.php');?>
             </div>
