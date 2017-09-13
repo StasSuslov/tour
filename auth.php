@@ -34,7 +34,7 @@ if(isset($_POST['submit']))
 //            $insip = ", user_ip=INET_ATON('".$_SERVER['REMOTE_ADDR']."')";
 //        }
         # Записываем в БД новый хеш авторизации и IP
-        mysqli_query($link, "UPDATE users SET user_hash='".$hash."' ".$insip." WHERE user_id='".$data['user_id']."'");
+        mysqli_query($link, "UPDATE users SET user_hash='".$hash."' WHERE user_id='".$data['user_id']."'");
         # Ставим куки
         setcookie("id", $data['user_id'], time()+60*60*24*30);
         setcookie("hash", $hash, time()+60*60*24*30);

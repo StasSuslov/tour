@@ -5,16 +5,13 @@
     <meta charset="utf-8">
 </head>
     <body>
+    <?php
+    ini_set ("session.use_trans_sid", true);
+    session_start();
+    ?>
         <div id="panel"></div>
         <div id="wrap">
-            <?php
-            ini_set ("session.use_trans_sid", true);
-            session_start();
-            if(isset($_SESSION['id']))
-            {
-                $token = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
-            }
-            ?>
+
             <div id="header">
                 <?php include ('header.php');?>
             </div>
@@ -23,6 +20,10 @@
             </div>
             <div id="content">
                 <?php
+//                if(!isset($_COOKIE['id'])) echo "No cookie id";
+//                if(!isset($_COOKIE['hash'])) echo "No cookie hash";
+//                if(!isset($_SESSION['id'])) echo "No session id";
+//                if(!isset($_SESSION['hash'])) echo "No session hash";
                 $type = isset($_GET['type']) ? $_GET['type'] : null;
                 switch ($type)
                 {
@@ -65,9 +66,9 @@
 					case 13:
                         include ("Novgorod.php");
                         break;
-//                    case 14:
-//                        include ("corporativ.php");
-//                        break;
+                    case 14:
+                        include ("logout.php");
+                        break;
                     case 15:
                         include ("check.php");
                         break;

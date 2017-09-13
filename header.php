@@ -1,4 +1,14 @@
 <div id="header">
+    <?php
+    if(isset($_SESSION['id']) and isset($_SESSION['hash']))
+    {
+        $token = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
+    }
+    else
+    {
+        $token = NULL;
+    }
+    ?>
     <table width="100%">
         <tr>
             <td>
@@ -7,7 +17,7 @@
             <td>
                 <form name="search" method="post" action="?type=16">
                     <input type="search" name="query" placeholder="Поиск">
-                    <input type="hidden" name="csrf" value="<?= $token ?>" >
+                    <input type="hidden" name="csrf" value="<?=$token?>">
                     <button type="submit">Найти</button>
                 </form>
             </td>
@@ -20,7 +30,7 @@
                     $data = mysqli_fetch_assoc($query);
                     $log = $data['user_login'];
                     echo "Вы вошли как $log.<br>";
-                    echo '<a href="logout.php">Выйти</a>';
+                    echo '<a href="?type=14">Выйти</a>';
                 }
                 else
                 {
