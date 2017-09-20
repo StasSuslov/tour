@@ -4,7 +4,7 @@
 # Соединямся с БД
 require 'scripts/connect.php';
 //session_start();
-if (isset($_COOKIE['id']) and isset($_COOKIE['hash']) and isset($_SESSION['id']) and isset($_SESSION['hash']))
+if (isset($_COOKIE['id']) and isset($_COOKIE['hash']) and isset($_SESSION['id']) and isset($_SESSION['secret']))
 {
     $query = mysqli_query($link, "SELECT * FROM users WHERE user_id = '".intval($_COOKIE['id'])."' LIMIT 1");
     $userdata = mysqli_fetch_assoc($query);
@@ -13,7 +13,7 @@ if (isset($_COOKIE['id']) and isset($_COOKIE['hash']) and isset($_SESSION['id'])
         setcookie("id", "", time() - 3600*24*30*12, "/");
         setcookie("hash", "", time() - 3600*24*30*12, "/");
         $_SESSION['id'] = NULL;
-        $_SESSION['hash'] = NULL;
+        $_SESSION['secret'] = NULL;
 //        $_SESSION['token'] = NULL;
         print "Хм, что-то не получилось";
     }

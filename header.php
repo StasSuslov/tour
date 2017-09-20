@@ -1,8 +1,8 @@
 <div id="header">
     <?php
-    if(isset($_SESSION['id']) and isset($_SESSION['hash']))
+    if(isset($_SESSION['id']) and isset($_SESSION['secret']))
     {
-        $token = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
+        $token = password_hash($_SESSION['secret'], PASSWORD_DEFAULT);
     }
     else
     {

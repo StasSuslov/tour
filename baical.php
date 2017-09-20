@@ -249,7 +249,6 @@
 	</table>
 <br><br>
 <div align="right" class="zakaz">
- <a href="/tour/order_tour/index.php"><img src="/tour/list_tours/images/knz.png"></a>
+ <a href="?type=2"><img src="/tour/list_tours/images/knz.png"></a>
 			</div>
 </div>
- <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

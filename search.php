@@ -48,10 +48,14 @@ function search ($query, $link)
 }
 //echo $_POST['csrf'];
 //echo $_SESSION['hash'];
-if(password_verify($_SESSION['hash'], (string)$_POST['csrf'])) {
-    if (isset($_POST['query'])) {
-        $search_result = search($_POST['query'], $link);
-        echo $search_result;
+if(isset($_SESSION['secret'])) {
+    if (password_verify($_SESSION['secret'], (string)$_POST['csrf'])) {
+        if (isset($_POST['query'])) {
+            $search_result = search($_POST['query'], $link);
+            echo $search_result;
+        }
+    } else {
+        echo "CSRF";
     }
 }
 else

@@ -23,7 +23,7 @@
 //                if(!isset($_COOKIE['id'])) echo "No cookie id";
 //                if(!isset($_COOKIE['hash'])) echo "No cookie hash";
 //                if(!isset($_SESSION['id'])) echo "No session id";
-//                if(!isset($_SESSION['hash'])) echo "No session hash";
+//                if(!isset($_SESSION['secret'])) echo "No session hash";
                 $type = isset($_GET['type']) ? $_GET['type'] : null;
                 switch ($type)
                 {

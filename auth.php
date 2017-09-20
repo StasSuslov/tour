@@ -3,6 +3,12 @@ require 'scripts/connect.php';
 //ini_set ("session.use_trans_sid", true);
 //session_start();
 // Страница авторизации
+#Генерация секрета
+function salt()
+{
+    $salt = substr(hash("sha256", uniqid()), -22);
+    return $salt;
+}
 # Функция для генерации случайной строки
 function generateCode($length=6)
 {
@@ -39,7 +45,7 @@ if(isset($_POST['submit']))
         setcookie("id", $data['user_id'], time()+60*60*24*30);
         setcookie("hash", $hash, time()+60*60*24*30);
         $_SESSION['id'] = $data['user_id'];
-        $_SESSION['hash'] = $hash;
+        $_SESSION['secret'] = salt();
 //        $_SESSION['token'] = password_hash($_SESSION['hash'], PASSWORD_DEFAULT);
         # Переадресовываем браузер на страницу проверки нашего скрипта
 

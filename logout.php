@@ -12,11 +12,12 @@ if(isset($_COOKIE['id']) and isset($_COOKIE['hash']) /*and isset($_SESSION['id']
 //    unset($_COOKIE['id']);
 //    unset($_COOKIE['hash']);
     $_SESSION['id'] = NULL;
-    $_SESSION['hash'] = NULL;
+    $_SESSION['secret'] = NULL;
 //    unset($_SESSION['id']);
 //    unset($_SESSION['hash']);
 //    unset($_SESSION['token']);
     header("Location: index.php");
+//    echo "Logout!";
 }
 else
 {
@@ -24,7 +25,7 @@ else
     if(!isset($_COOKIE['id'])) echo "No cookie id";
     if(!isset($_COOKIE['hash'])) echo "No cookie hash";
     if(!isset($_SESSION['id'])) echo "No session id";
-    if(!isset($_SESSION['hash'])) echo "No session hash";
+    if(!isset($_SESSION['secret'])) echo "No session hash";
 }
 ?>
 </div>
